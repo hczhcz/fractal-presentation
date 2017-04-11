@@ -10,8 +10,17 @@ p {
     line-height: 120%;
 }
 
-.detail {
+a {
+    white-space: nowrap;
+}
+
+.small {
     font-size: 30px;
+}
+
+.small2 {
+    padding-left: 50px;
+    font-size: 25px;
 }
 
 .tTable {
