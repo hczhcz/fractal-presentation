@@ -46,10 +46,10 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
-    padding: 16px;
+    padding: 16px 16px 16px 128px;
     background: rgba(255, 255, 255, 0.9);
     opacity: 0;
-    font-size: 25px;
+    font-size: 40px;
     transition: 0.25s;
 }
 
