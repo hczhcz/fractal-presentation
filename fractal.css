@@ -23,6 +23,40 @@ a {
     font-size: 25px;
 }
 
+.imgSlide {
+    position: relative;
+    line-height: 0%;
+}
+
+.imgSlide>img {
+    width: 100%;
+}
+
+.imgSlide>div {
+    width: 100%;
+}
+
+.imgSlide>div>img:first-child {
+    float: left;
+}
+
+.imgSlide>:last-child {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    font-size: 25px;
+    transition: 0.25s;
+}
+
+.imgSlide>:last-child:hover {
+    opacity: 1;
+}
+
 .tTable {
     border-spacing: 0;
     filter: blur(1px);
