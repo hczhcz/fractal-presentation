@@ -1,0 +1,55 @@
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    line-height: 120%;
+}
+
+.detail {
+    font-size: 30px;
+}
+
+.tTable {
+    border-spacing: 0;
+    filter: blur(1px);
+    transition: 0.5s;
+}
+
+.present .tTable {
+    filter: blur(0px);
+}
+
+.tTable td {
+    overflow: hidden;
+}
+
+.tTable div {
+    width: 20.00px;
+    height: 34.64px;
+}
+
+.tLeft {
+    background: #666;
+    transform: matrix(1, 0, -1, 1.732, 0, 0);
+    transform-origin: bottom left;
+}
+
+.tRight {
+    background: #666;
+    transform: matrix(1, 0, 1, 1.732, 0, 0);
+    transform-origin: bottom right;
+}
+
+.tText {
+    position: absolute;
+    left: 700px;
+    bottom: 64px;
+    width: 50%;
+    transform: rotate(-30deg);
+    transform-origin: bottom left;
+}
