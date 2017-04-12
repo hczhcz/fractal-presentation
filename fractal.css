@@ -23,24 +23,24 @@ a {
     font-size: 25px;
 }
 
-.imgSlide {
+.mainSlide {
     position: relative;
     line-height: 0%;
 }
 
-.imgSlide>img {
+.mainSlide>img {
     width: 100%;
 }
 
-.imgSlide>div {
+.mainSlide>div {
     width: 100%;
 }
 
-.imgSlide>div>img:first-child {
+.mainSlide>div>img:first-child {
     float: left;
 }
 
-.imgSlide>:last-child {
+.mainSlide>:last-child {
     position: absolute;
     left: 0;
     right: 0;
@@ -53,7 +53,7 @@ a {
     transition: 0.25s;
 }
 
-.imgSlide>:last-child:hover {
+.mainSlide>:last-child:hover {
     opacity: 1;
 }
 
