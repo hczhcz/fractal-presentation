@@ -67,6 +67,7 @@ a {
 
 .tTable {
     border-spacing: 0;
+    z-index: -1;
     filter: blur(1px);
     transition: 0.5s;
 }
