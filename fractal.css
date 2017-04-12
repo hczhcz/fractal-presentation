@@ -6,21 +6,16 @@ h2 {
     font-size: 50px;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 p {
     line-height: 120%;
 }
 
 a {
     white-space: nowrap;
-}
-
-.small {
-    font-size: 30px;
-}
-
-.small2 {
-    padding-left: 50px;
-    font-size: 25px;
 }
 
 .mainSlide {
@@ -63,6 +58,11 @@ a {
 
 .extraSlide>h1 {
     padding: 32px;
+}
+
+.noteSlide>p {
+    padding-left: 50px;
+    font-size: 25px;
 }
 
 .tTable {
