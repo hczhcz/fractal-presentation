@@ -30,13 +30,13 @@
                 <img id='img1' src='1.png' />
                 <p>
                     What is this image about? It looks like a calabash or a rotated number "eight". Actually, it is Mandelbrot set, a fractal. "Fractal" is a mathematical concept to describe a shape which is similar to itself at every scale. If we zoom this image in, we can see more and more shapes like Mandelbrot set itself. It is an infinitely complicated world created from one mathematical formula.
-                    <br><a id='btn1' href='javascript: void (0);'>Click here to see what happens!</a>
+                    <br><a id='btn1' href='javascript: void (0);'>Click here to watch the animation!</a>
                 </p>
             </div>
             <script>
                 document.getElementById('btn1').onclick = function () {
                     document.getElementById('btn1').text = 'Loading ...'
-                    document.getElementById('img1').src = '1_0.gif';
+                    document.getElementById('img1').src = '1_1.gif';
 
                     document.getElementById('img1').onload = function () {
                         document.getElementById('btn1').remove();
