@@ -57,6 +57,14 @@ a {
     opacity: 1;
 }
 
+.extraSlide {
+    text-align: center;
+}
+
+.extraSlide>h1 {
+    padding: 32px;
+}
+
 .tTable {
     border-spacing: 0;
     filter: blur(1px);

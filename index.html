@@ -70,6 +70,74 @@
             <!-- <img src='4_??.gif' width='500' /> -->
         </div>
 
+        <div class='step' data-x='-14000' data-y='-3500' data-scale='3' data-rotate='-60'>
+            <div class='extraSlide'>
+                <h1>Cantor Set</h1>
+                <img id='img4_0' src='4_00.gif' style='padding: 64px 0;' />
+            </div>
+            <script>
+                (function () {
+                    var i = 0;
+
+                    document.getElementById('img4_0').onclick = function () {
+                        i = (i + 1) % 4;
+                        document.getElementById('img4_0').src = '4_0' + i + '.gif';
+                    };
+                })();
+            </script>
+        </div>
+
+        <div class='step' data-x='-12800' data-y='-5600' data-scale='3' data-rotate='-60'>
+            <div class='extraSlide'>
+                <h1>Sierpinski Triangle</h1>
+                <img id='img4_1' src='4_10.gif' />
+            </div>
+            <script>
+                (function () {
+                    var i = 0;
+
+                    document.getElementById('img4_1').onclick = function () {
+                        i = (i + 1) % 4;
+                        document.getElementById('img4_1').src = '4_1' + i + '.gif';
+                    };
+                })();
+            </script>
+        </div>
+
+        <div class='step' data-x='-11600' data-y='-7700' data-scale='3' data-rotate='-60'>
+            <div class='extraSlide'>
+                <h1>Sierpinski Carpet</h1>
+                <img id='img4_2' src='4_20.gif' />
+            </div>
+            <script>
+                (function () {
+                    var i = 0;
+
+                    document.getElementById('img4_2').onclick = function () {
+                        i = (i + 1) % 4;
+                        document.getElementById('img4_2').src = '4_2' + i + '.gif';
+                    };
+                })();
+            </script>
+        </div>
+
+        <div class='step' data-x='-10400' data-y='-9800' data-scale='3' data-rotate='-60'>
+            <div class='extraSlide'>
+                <h1>Menger Sponge</h1>
+                <img id='img4_3' src='4_30.gif' />
+            </div>
+            <script>
+                (function () {
+                    var i = 0;
+
+                    document.getElementById('img4_3').onclick = function () {
+                        i = (i + 1) % 4;
+                        document.getElementById('img4_3').src = '4_3' + i + '.gif';
+                    };
+                })();
+            </script>
+        </div>
+
         <div class='step' data-x='-4500' data-y='-4600' data-scale='3'>
             <div class='mainSlide'>
                 <img src='5.jpg' />
