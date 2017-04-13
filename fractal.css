@@ -110,3 +110,28 @@ a {
     transform: rotate(-30deg);
     transform-origin: bottom left;
 }
+
+.control {
+    position: fixed;
+    left: 16px;
+    bottom: 16px;
+    pointer-events: auto;
+}
+
+.control>a {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+    padding: 8px;
+    background-color: rgba(64, 64, 64, 0.4);
+    text-align: center;
+    line-height: 100%;
+    font-size: 32px;
+    color: #E0E0E0;
+    text-shadow: 2px 2px 2px rgba(64, 64, 64, 0.8);
+}
+
+.control>a:hover {
+    background-color: rgba(32, 32, 32, 0.6);
+}

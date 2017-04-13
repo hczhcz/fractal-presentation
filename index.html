@@ -366,9 +366,48 @@
         </div>
     </div>
 
+    <div class='control'>
+        <a id='btnhome' href='javascript: void (0);'>★</a>
+        <a id='btnback' href='javascript: void (0);'>↩</a>
+        <a id='btnleft' href='javascript: void (0);'>⬅</a>
+        <a id='btnright' href='javascript: void (0);'>➡</a>
+    </div>
+
     <script src='impress.js'></script>
     <script>
         impress().init();
+
+        document.getElementById('btnhome').onclick = function () {
+            impress().goto(1);
+        };
+
+        (function () {
+            var history = [];
+
+            window.onhashchange = function () {
+                if (location.hash.match(/#\/step-\d+/)) {
+                    history.push(location.hash);
+                }
+                console.log(history);
+            };
+            window.onhashchange();
+
+            document.getElementById('btnback').onclick = function () {
+                if (history.length >= 2) {
+                    history.pop();
+                    location.hash = history.pop();
+                }
+                console.log(history);
+            };
+        })();
+
+        document.getElementById('btnleft').onclick = function () {
+            impress().prev();
+        };
+
+        document.getElementById('btnright').onclick = function () {
+            impress().next();
+        };
     </script>
 </body>
 </html>
