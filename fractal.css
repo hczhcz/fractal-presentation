@@ -108,8 +108,8 @@ a {
 
 .tText {
     position: absolute;
-    left: 660px;
-    bottom: 64px;
+    left: 700px;
+    bottom: 24px;
     width: 50%;
     transform: rotate(-30deg);
     transform-origin: bottom left;
