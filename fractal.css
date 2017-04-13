@@ -86,8 +86,12 @@ a {
 }
 
 .tTable div {
-    width: 20.00px;
-    height: 34.64px;
+    /*
+        width: 20.00px;
+        height: 34.64px;
+    */
+    width: 20px;
+    height: 34.5px;
 }
 
 .tLeft {
