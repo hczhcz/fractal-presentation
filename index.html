@@ -247,11 +247,21 @@
             <div class='mainSlide'>
                 <img src='14.jpg' style='padding: 15% 0;' />
                 <p>
+                    <iframe id='frame14' src='https://www.youtube.com/embed/q8gkmugTF00' style='position: absolute; display: none; left: 0; right: 0; top: 0; bottom: 0; width: 100%; height: 100%;' tabindex='-1'></iframe>
                     Besides science and engineering, fractals are also used in art and creative works. In this video, a group of contemporary artists created an interactive artwork using a set of cameras and projectors:
-                    <br><a href='https://www.youtube.com/watch?v=q8gkmugTF00' target='_blank'>Video - Analog Fractals</a>
+                    <br><a id='btn14' href='javascript: void (0);'>Video - Analog Fractals</a>
                     <br>Sen Gu, a well-known science writer in China, shared his fractal creation on his blog. In this photo, he made a Sierpinski triangle using the technique of making ramen.
                 </p>
             </div>
+            <script>
+                document.getElementById('btn14').onclick = function () {
+                    document.getElementById('frame14').style.display = 'block';
+
+                    document.getElementById('frame14').onmouseleave = function () {
+                        document.getElementById('frame14').style.display = 'none';
+                    };
+                };
+            </script>
         </div>
 
         <div class='step' data-x='-12500' data-y='9200' data-scale='3' data-rotate='0'>
