@@ -398,7 +398,6 @@
                 if (location.hash.match(/#\/step-\d+/)) {
                     history.push(location.hash);
                 }
-                console.log(history);
             };
             window.onhashchange();
 
@@ -407,7 +406,6 @@
                     history.pop();
                     location.hash = history.pop();
                 }
-                console.log(history);
             };
         })();
 
